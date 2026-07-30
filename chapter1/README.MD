@@ -106,3 +106,49 @@ Installs 탭에서는 원하는 버전의 유니티를 골라 설치할 수 있�
   
 유니티가 유니티 전체 요소를 가리키는 단어라면 유니티 에디터는 유니티 개발 프로그램과 그 창을 특정하는 것이다.  
   
+# **유니티 에디터 설치**  
+유니티 허브에서 원하는 버전의 유니티 에디터를 골라 설치한다.  
+  
+학습은 유니티 2023을 사용한다. 또한 유니티 6는 유니티 2023 이후 출시된 최신 버전이지만 모든 예제들은 유니티 6도 지원하므로 유니티 6를 설치해도 된다.  
+  
+1. Installs 탭에서 Install Editor 클릭  
+2. Official releases 탭에서 최신 버전의 Unity 2023 또는 Unity 6를 찾아 Install 클릭  
+  
+![img.png](image/img9.png)  
+  
+- 유니티 아카이브  
+유니티 허브의 설치 창에서는 몇 가지 주요 버전의 유니티 에디터만 보여준다. 따라서 원하는 버전의 유니티 에디터가 설치 목록에 없을 수 있다.  
+  
+이떄는 유니티 아카이브(https://unity3d.com/get-unity/download/archive)를 사용할 수 있다. 유니티 아카이브에서는 과거 모든 버전의 유니티 
+에디터를 찾아 설치할 수 있다. 원하는 버전을 찾아 Unity Hub 버튼을 클릭하면 앱 링크를 통해 유니티 허브에서 해당 버전의 유니티 에디터를 설치하는 
+창이 열린다.  
+  
+3. Install 버튼을 누른 다음에는 추가 모듈을 선택하는 화면이 표시된다.  
+  
+![img.png](image/img10.png)  
+  
+학습을 진행하는 데 꼭 필요한 필수 모듈은 다음과 같다.  
+  
+- Visual Studio: 유니티에서 사용하는 코드 편집기(윈도우는 Community, 맥OS는 for Mac 에디션). 컴퓨터에 이미 비주얼 스튜디오가 설치되어 있으면 
+체크박스가 표시되지 않는다.  
+- 맥의 경우: Mac Build Support(IL2CPP)  
+- 윈도우의 경우: Windows Build Support(IL2CPP)  
+  
+Mac Build Support (IL2CPP)와 Windows Build Support(IL2CPP)는 데스크톱용으로 게임을 빌드할 떄 IL2CPP를 사용할 수 있도록 하는 모듈이다.  
+  
+이 둘이 없어도 맥 또는 윈도우 테스크톱용으로 게임을 빌드할 수 있지만 IL2CPP를 사용하면 추가적인 성능이나 보안 이점을 누릴 수 있다.  
+이외에 부록의 안드로이드나 iOS 빌드를 진행하려면 다음 모듈이 필요하다.  
+  
+- Android Build Support  
+OpenJDK  
+Android SDK & NDK Tools  
+- iOS Build Support  
+
+필수 모듈 이외의 모듈들은 설치하지 않아도 개발에 영향을 주지 않는다. 이들은 나중에 개별적으로 설치할 수 있다.  
+  
+4. 필수 모듈들을 체크  
+5. Continue 버튼 클릭  
+  
+![img.png](image/img11.png)  
+  
+설치 완료된 유니티 에디터는 Installs 탭에서 확인할 수 있다.  
