@@ -152,3 +152,9 @@ Android SDK & NDK Tools
 ![img.png](image/img11.png)  
   
 설치 완료된 유니티 에디터는 Installs 탭에서 확인할 수 있다.  
+  
+## **모듈 추가하기**  
+1. 유니티 허브의 Installs 탭 > 유니티 에디터 오른쪽의 톱니바퀴 버튼 > Add modules 버튼  
+  
+![img.png](image/img12.png)  
+  
